@@ -1,0 +1,8 @@
+setup.py
+tap_jsonplaceholder.py
+tap_jsonplaceholder.egg-info/PKG-INFO
+tap_jsonplaceholder.egg-info/SOURCES.txt
+tap_jsonplaceholder.egg-info/dependency_links.txt
+tap_jsonplaceholder.egg-info/entry_points.txt
+tap_jsonplaceholder.egg-info/requires.txt
+tap_jsonplaceholder.egg-info/top_level.txt

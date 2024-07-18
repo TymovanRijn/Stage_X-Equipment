@@ -1,0 +1,28 @@
+version: 1
+
+plugins:
+  extractors:
+  - name: tap-jsonplaceholder
+    namespace: tap_jsonplaceholder
+    pip_url: 
+      file:///C:/Users/tymov/Documents/Stage_X-Equipment/simple_meltano_project/simple_project/extractors/tap-jsonplaceholder
+    executable: tap-jsonplaceholder
+    capabilities:
+    - discover
+    - catalog
+    - state
+    config:
+      api_url: https://jsonplaceholder.typicode.com/posts
+
+  loaders:
+  - name: target-jsonl
+    namespace: target_jsonl
+    pip_url: target-jsonl
+    config:
+      destination_path: output.jsonl
+
+environments:
+- name: dev
+
+default_environment: dev
+project_id: c35bf09e-5ad9-49a9-9270-84a7116cd101

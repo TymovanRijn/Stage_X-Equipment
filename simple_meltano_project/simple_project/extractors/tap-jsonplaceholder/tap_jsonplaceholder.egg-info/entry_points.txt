@@ -1,0 +1,2 @@
+[console_scripts]
+tap-jsonplaceholder = tap_jsonplaceholder:main
